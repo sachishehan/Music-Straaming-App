@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:sportify/common/widgets/button/basic_app_button.dart';
+import 'package:sportify/core/config/assets/app_images.dart';
 import 'package:sportify/core/config/assets/app_vector.dart';
 import 'package:sportify/core/config/theme/app_color.dart';
-import 'package:spotify/common/widgets/button/basic_app_button.dart';
-import 'package:spotify/core/configs/assets/app_images.dart';
-import 'package:spotify/presentation/choose_mode/pages/choose_mode.dart';
+import 'package:sportify/presentation/choose_mode/pages/choose_moe.dart';
 
 class GetStartedPage extends StatelessWidget {
   const GetStartedPage({super.key});
