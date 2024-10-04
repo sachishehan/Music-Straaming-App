@@ -4,8 +4,8 @@ import 'package:sportify/common/widgets/appbar/app_bar.dart';
 import 'package:sportify/common/widgets/button/basic_app_button.dart';
 import 'package:sportify/core/config/assets/app_vector.dart';
 import 'package:sportify/data/models/auth/signin_user_req.dart';
+import 'package:sportify/domain/usecase/auth/sigin.dart';
 import 'package:sportify/presentation/auth/pages/signup.dart';
-import '../../../domain/usecases/auth/sigin.dart';
 import '../../../service_locator.dart';
 import '../../home/pages/home.dart';
 

@@ -3,11 +3,10 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:sportify/common/widgets/appbar/app_bar.dart';
 import 'package:sportify/common/widgets/button/basic_app_button.dart';
 import 'package:sportify/core/config/assets/app_vector.dart';
+import 'package:sportify/data/models/auth/create_user_req.dart';
+import 'package:sportify/domain/usecase/auth/signup.dart';
 import 'package:sportify/presentation/auth/pages/sigin.dart';
-import 'package:spotify/data/models/auth/create_user_req.dart';
-import 'package:spotify/domain/usecases/auth/signup.dart';
-import 'package:spotify/presentation/auth/pages/signin.dart';
-import 'package:spotify/presentation/home/pages/home.dart';
+import 'package:sportify/presentation/home/pages/home.dart';
 import 'package:sportify/service_locator.dart';
 
 class SignupPage extends StatelessWidget {
