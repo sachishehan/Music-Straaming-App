@@ -1,6 +1,10 @@
 import 'package:get_it/get_it.dart';
 import 'package:sportify/data/repository/auth/auth.dart';
+import 'package:sportify/data/repository/auth/auth_repository_impl.dart';
 import 'package:sportify/data/repository/song/song.dart';
+import 'package:sportify/data/sources/auth/auth_firebase_service.dart';
+import 'package:sportify/data/sources/song/song_firbase_service.dart';
+import 'package:sportify/domain/repository/auth/auth.dart';
 import 'package:sportify/domain/usecase/auth/sigin.dart';
 import 'package:sportify/domain/usecase/auth/signup.dart';
 import 'package:sportify/domain/usecase/song/add_or_remove_favorite_song.dart';

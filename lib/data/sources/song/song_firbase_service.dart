@@ -3,7 +3,7 @@ import 'package:dartz/dartz.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:sportify/data/models/song/song.dart';
 import 'package:sportify/domain/entities/song/song.dart';
-import 'package:spotify/domain/usecases/song/is_favorite_song.dart';
+import 'package:sportify/domain/usecase/song/is_favorite_song.dart';
 
 import '../../../service_locator.dart';
 
