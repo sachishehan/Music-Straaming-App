@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
 import 'package:sportify/data/sources/song/song_firbase_service.dart';
-import 'package:spotify/domain/repository/song/song.dart';
+import 'package:sportify/domain/repository/song/song.dart';
 
 import '../../../service_locator.dart';
 
