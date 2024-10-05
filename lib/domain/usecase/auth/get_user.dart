@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
-import 'package:spotify/core/usecase/usecase.dart';
-import 'package:spotify/domain/repository/auth/auth.dart';
+import 'package:sportify/core/usecase/usecase.dart';
+import 'package:sportify/domain/repository/auth/auth.dart';
 
 import '../../../service_locator.dart';
 
