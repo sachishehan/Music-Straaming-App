@@ -12,8 +12,6 @@ import 'package:sportify/domain/usecase/song/get_favorite_songs.dart';
 import 'package:sportify/domain/usecase/song/get_news_songs.dart';
 import 'package:sportify/domain/usecase/song/get_play_list.dart';
 import 'package:sportify/domain/usecase/song/is_favorite_song.dart';
-import 'package:spotify/data/repository/auth/auth_repository_impl.dart';
-import 'package:spotify/data/sources/auth/auth_firebase_service.dart';
 import 'package:spotify/domain/repository/auth/auth.dart';
 import 'package:spotify/domain/usecases/auth/get_user.dart';
 
