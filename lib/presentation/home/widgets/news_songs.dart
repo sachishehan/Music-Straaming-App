@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sportify/common/helpers/is_dark_mode.dart';
 import 'package:sportify/core/config/constants/app_url.dart';
 import 'package:sportify/core/config/theme/app_color.dart';
-import 'package:spotify/presentation/home/bloc/news_songs_cubit.dart';
+import 'package:sportify/presentation/home/bloc/news_song_cubit.dart';
 import 'package:spotify/presentation/song_player/pages/song_player.dart';
 
 import '../../../domain/entities/song/song.dart';
