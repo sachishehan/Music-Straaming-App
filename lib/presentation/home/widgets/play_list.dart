@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:spotify/common/helpers/is_dark_mode.dart';
-import 'package:spotify/core/configs/theme/app_colors.dart';
-import 'package:spotify/presentation/home/bloc/play_list_cubit.dart';
-
-import '../../../common/widgets/favorite_button/favorite_button.dart';
+import 'package:sportify/common/helpers/is_dark_mode.dart';
+import 'package:sportify/common/widgets/favourite_button/favorite_button.dart';
+import 'package:sportify/core/config/theme/app_color.dart';
+import 'package:sportify/presentation/home/bloc/play_list_cubit.dart';
 import '../../../domain/entities/song/song.dart';
 import '../../song_player/pages/song_player.dart';
 import '../bloc/play_list_state.dart';

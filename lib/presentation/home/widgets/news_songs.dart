@@ -4,11 +4,9 @@ import 'package:sportify/common/helpers/is_dark_mode.dart';
 import 'package:sportify/core/config/constants/app_url.dart';
 import 'package:sportify/core/config/theme/app_color.dart';
 import 'package:sportify/presentation/home/bloc/news_song_cubit.dart';
-import 'package:spotify/presentation/song_player/pages/song_player.dart';
-
+import 'package:sportify/presentation/home/bloc/news_song_state.dart';
+import 'package:sportify/presentation/song_player/pages/song_player.dart';
 import '../../../domain/entities/song/song.dart';
-import '../bloc/news_songs_state.dart';
-
 class NewsSongs extends StatelessWidget {
   const NewsSongs({super.key});
 
