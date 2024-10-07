@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../domain/usecases/song/get_play_list.dart';
+import 'package:sportify/domain/usecase/song/get_play_list.dart';
 import '../../../service_locator.dart';
 import 'play_list_state.dart';
 
