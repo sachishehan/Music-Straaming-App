@@ -1,4 +1,4 @@
-import 'package:spotify/domain/entities/song/song.dart';
+import 'package:sportify/domain/entities/song/song.dart';
 
 abstract class FavoriteSongsState {}
 
