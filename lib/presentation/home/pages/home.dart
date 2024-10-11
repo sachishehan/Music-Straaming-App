@@ -6,12 +6,9 @@ import 'package:sportify/core/config/assets/app_vector.dart';
 import 'package:sportify/core/config/theme/app_color.dart';
 import 'package:sportify/presentation/home/widgets/news_songs.dart';
 import 'package:sportify/presentation/home/widgets/play_list.dart';
-import 'package:spotify/presentation/home/widgets/news_songs.dart';
-import 'package:spotify/presentation/home/widgets/play_list.dart';
-import 'package:spotify/presentation/profile/pages/profile.dart';
+import 'package:sportify/presentation/profile/pages/profile.dart';
 
 import '../../../common/widgets/appbar/app_bar.dart';
-import '../../../core/configs/assets/app_vectors.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
